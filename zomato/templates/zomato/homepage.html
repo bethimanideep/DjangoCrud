@@ -4,6 +4,6 @@
     <h1 class="display-4">Hello!</h1>
     <p class="lead">This is a simple CrudApp with Python and Django</p>
     <hr class="my-4">
-    <a class="btn btn-primary btn-lg" href="http://127.0.0.1:8000/food/add" role="button">Do Crud By Adding Users</a>
+    <a class="btn btn-primary btn-lg" href="{% url 'zomato:add' %}" role="button">Do Crud By Adding Users</a>
 </div>
 {% endblock content %}
