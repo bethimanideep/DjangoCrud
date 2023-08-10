@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-z9h1rc$t0#7=7^7!x6$)=xm_db1xf#c2+y7*(&1&c849-j++e9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
 
@@ -124,7 +124,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #static work
-import os
-STATICFILES_DIRS = os.path.join(BASE_DIR,'zomato'),
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'zomato')
+# import os
+# STATICFILES_DIRS = os.path.join(BASE_DIR,'zomato'),
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'zomato')
 
